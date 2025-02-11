@@ -1,6 +1,6 @@
 # Custom Benchmark Integration Tutorial
 
-This is a source code repository for the tutorial on how to integrate a custom benchmark into the MLCommons Inference Benchmark suite. The tutorial is available [here](https://docs.supervisely.com/neural-networks/model-evaluation-benchmark/custom-benchmark).
+This is a source code repository for the tutorial on how to integrate a custom benchmark into the Supervisely. The tutorial is available [here](https://docs.supervisely.com/neural-networks/model-evaluation-benchmark/custom-benchmark).
 
 Screenshot of the resulting report we will implement in this tutorial:
 
