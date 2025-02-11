@@ -1,0 +1,14 @@
+# test from branch
+# git+https://github.com/supervisely/supervisely.git@model-benchmark
+
+# SDK for benchmarking:
+# supervisely[model-benchmark]==6.73.295
+
+# or:
+supervisely==6.73.295
+pycocotools
+scikit-learn
+plotly==5.22.0
+black
+# torch
+# torchvision
