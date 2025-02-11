@@ -2,6 +2,10 @@
 
 This is a source code repository for the tutorial on how to integrate a custom benchmark into the MLCommons Inference Benchmark suite. The tutorial is available [here](https://docs.supervisely.com/neural-networks/model-evaluation-benchmark/custom-benchmark).
 
+Screenshot of the resulting report we will implement in this tutorial:
+
+![result](https://github.com/supervisely-ecosystem/tutorial-custom-benchmark/releases/download/v0.0.1/benchmark_result.png)
+
 ## How to run the tutorial
 
 1. Clone the repository
@@ -35,6 +39,10 @@ python src/main_2.py
 ```bash
 uvicorn src.main_3:app --host 0.0.0.0 --port 8000 --ws websockets --reload
 ```
+
+4. Find the resulting report link in the console output and open it in a browser.
+
+![report_link](https://github.com/supervisely-ecosystem/tutorial-custom-benchmark/releases/download/v0.0.1/benchmark_link.png)
 
 ### Debugging
 
