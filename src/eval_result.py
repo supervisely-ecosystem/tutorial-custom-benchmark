@@ -1,6 +1,5 @@
 from collections import defaultdict
 from pathlib import Path
-from typing import Optional
 
 import supervisely as sly
 from supervisely.nn.benchmark.base_evaluator import BaseEvalResult

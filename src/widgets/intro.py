@@ -22,13 +22,6 @@ class Intro(BaseVisMetric):
     @property
     def md(self) -> MarkdownWidget:
         text = "## Overview \n- **Task type**: Object Detection\n"
-
-        if self.eval_result.gt_project_id is not None:
-            gt_id = self.eval_result.gt_project_info.id
-            gt_name = self.eval_result.gt_project_info.name
-            project_link = f"<a href='/projects/{gt_id}/datasets' target='_blank'>{gt_name}</a>"
-            text += f"- **Ground Truth Project**: {project_link}\n"
-
         md = MarkdownWidget(name="intro", title="Intro", text=text)
         md.is_info_block = True
         md.width_fit_content = True

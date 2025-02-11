@@ -25,7 +25,7 @@ class CustomMetric(BaseVisMetric):
         fig.add_trace(go.Bar(y=y2, x=x, name="Predictions"))
 
         fig.update_layout(barmode="group", bargap=0.15, bargroupgap=0.05)
-        fig.update_xaxes(title_text="Class")
-        fig.update_yaxes(title_text="Images")
+        fig.update_xaxes(title_text="Class Name")
+        fig.update_yaxes(title_text="Number of Objects")
 
         return ChartWidget(name="images_chart", figure=fig)

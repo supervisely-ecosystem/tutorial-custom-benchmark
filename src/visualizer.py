@@ -12,10 +12,10 @@ class MyVisualizer(BaseVisualizer):
 
     @property
     def cv_task(self):
-        return TaskType.INSTANCE_SEGMENTATION
+        return TaskType.OBJECT_DETECTION
 
     def _create_widgets(self):
-        # In this method, we initialize and configure all the widgets that we will use
+        """In this method, we initialize and configure all the widgets that we will use"""
 
         vis_text = "N/A"  # not used in this example
 
@@ -36,8 +36,10 @@ class MyVisualizer(BaseVisualizer):
         self.custom_metric_chart = custom_metric.chart
 
     def _create_layout(self):
-        # In this method, we create the layout of the visualizer.
-        # We define the order of the widgets in the report and their visibility in the sidebar.
+        """
+        Method to create the layout of the visualizer.
+        We define the order of the widgets in the report and their visibility in the sidebar.
+        """
 
         # Create widgets
         self._create_widgets()
