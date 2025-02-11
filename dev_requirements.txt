@@ -2,10 +2,10 @@
 # git+https://github.com/supervisely/supervisely.git@model-benchmark
 
 # SDK for benchmarking:
-# supervisely[model-benchmark]==6.73.295
+# supervisely[model-benchmark]==6.73.301
 
 # or:
-supervisely==6.73.295
+supervisely==6.73.301
 pycocotools
 scikit-learn
 plotly==5.22.0
